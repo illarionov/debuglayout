@@ -5,6 +5,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+@file:Suppress("UnstableApiUsage")
+
 package at.released.debuglayout.gradle.lint
 
 import org.gradle.api.Project
@@ -14,11 +16,11 @@ import org.gradle.api.tasks.util.PatternFilterable
 
 internal val Project.configRootDir: Directory
     get() {
-        return rootProject.layout.projectDirectory.dir("config")
+        return layout.settingsDirectory.dir("config")
     }
 
 internal val Project.lintedFileTree: FileTree
-    get() = rootProject.layout.projectDirectory.asFileTree.matching {
+    get() = layout.settingsDirectory.asFileTree.matching {
         excludeNonLintedDirectories()
     }
 

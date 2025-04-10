@@ -31,7 +31,8 @@ mavenPublishing {
         repositories {
             maven {
                 name = "test"
-                setUrl(project.rootProject.layout.buildDirectory.dir("localMaven"))
+                @Suppress("UnstableApiUsage")
+                setUrl(layout.settingsDirectory.dir("build/localMaven"))
             }
             maven {
                 name = "PixnewsS3"
