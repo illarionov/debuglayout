@@ -29,7 +29,8 @@ val detektCheck = tasks.register("detektCheck", Detekt::class) {
                 it.name.endsWith(".kt") || it.name.endsWith(".kts")
             },
     )
-    basePath = rootProject.projectDir.toString()
+    @Suppress("UnstableApiUsage")
+    basePath = layout.settingsDirectory.toString()
 
     parallel = true
     ignoreFailures = false
