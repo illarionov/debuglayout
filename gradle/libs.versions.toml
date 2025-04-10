@@ -14,7 +14,6 @@ assertk = "0.28.1"
 compose = "1.7.8"
 compose-plugin = "1.7.3"
 detekt = "1.23.8"
-diktat = "2.0.0"
 detekt-compose-rules = "0.4.22"
 dokka = "2.0.0"
 gradle-maven-publish-plugin = "0.31.0"
@@ -52,7 +51,6 @@ agp-plugin-api = { module = "com.android.tools.build:gradle-api", version.ref = 
 detekt-formatting = { group = "io.gitlab.arturbosch.detekt", name = "detekt-formatting", version.ref = "detekt" }
 detekt-compose-rules = { group = "io.nlopez.compose.rules", name = "detekt", version.ref = "detekt-compose-rules" }
 detekt-plugin = { group = "io.gitlab.arturbosch.detekt", name = "detekt-gradle-plugin", version.ref = "detekt" }
-diktat-plugin = { group = "com.saveourtool.diktat", name = "diktat-gradle-plugin", version.ref = "diktat" }
 dokka-plugin = { group = "org.jetbrains.dokka", name = "dokka-gradle-plugin", version.ref = "dokka" }
 gradle-maven-publish-plugin = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "gradle-maven-publish-plugin" }
 kotlin-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
