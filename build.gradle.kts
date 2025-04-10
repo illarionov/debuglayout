@@ -15,12 +15,11 @@ plugins {
     alias(libs.plugins.kotlin.multiplatform) apply false
     alias(libs.plugins.kotlinx.binary.compatibility.validator) apply false
     id("at.released.debuglayout.gradle.lint.detekt")
-    id("at.released.debuglayout.gradle.lint.diktat")
     id("at.released.debuglayout.gradle.lint.spotless")
 }
 
 tasks.register("styleCheck") {
     group = "Verification"
     description = "Runs code style checking tools (excluding tests and Android Lint)"
-    dependsOn("detektCheck", "spotlessCheck", "diktatCheck")
+    dependsOn("detektCheck", "spotlessCheck")
 }
