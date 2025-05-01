@@ -44,8 +44,8 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
-          java-version: '21'
+          distribution: 'corretto'
+          java-version: '24'
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
