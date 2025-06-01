@@ -19,7 +19,7 @@ dokka = "2.0.0"
 gradle-maven-publish-plugin = "0.31.0"
 junit-platform-launcher = "1.12.2"
 junit5 = "5.13.0"
-kotlin = "2.1.20"
+kotlin = "2.1.21"
 kotlinx-binary-compatibility-validator = "0.17.0"
 spotless = "7.0.3"
 
