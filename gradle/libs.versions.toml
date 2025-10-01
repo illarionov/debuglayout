@@ -21,7 +21,7 @@ junit-platform-launcher = "1.13.0"
 junit5 = "5.13.2"
 kotlin = "2.1.21"
 kotlinx-binary-compatibility-validator = "0.17.0"
-spotless = "7.0.3"
+spotless = "8.0.0"
 
 [libraries]
 assertk = { group = "com.willowtreeapps.assertk", name = "assertk", version.ref = "assertk" }
