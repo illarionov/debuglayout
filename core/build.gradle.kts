@@ -40,16 +40,11 @@ kotlin {
         browser()
     }
 
-/*
- TODO
     iosX64()
     iosArm64()
     iosSimulatorArm64()
-    linuxX64()
     macosX64()
     macosArm64()
-    mingwX64()
-*/
 
     sourceSets {
         androidMain.dependencies {
