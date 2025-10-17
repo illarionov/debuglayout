@@ -1,6 +1,6 @@
 [versions]
 androidMinSdk = "21"
-androidCompileSdk = "35"
+androidCompileSdk = "36"
 
 agp = "8.13.0"
 androidx-activityCompose = "1.11.0"
