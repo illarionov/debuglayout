@@ -11,7 +11,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import kotlinx.browser.window
 
-// TODO
 @Composable
 @Suppress("ModifierComposable")
 internal actual fun Modifier.getDisplayMetrics(): DisplayMetrics = window.devicePixelRatio.let {

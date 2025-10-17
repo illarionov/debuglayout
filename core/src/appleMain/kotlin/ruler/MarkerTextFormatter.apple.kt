@@ -16,10 +16,11 @@ internal actual operator fun MarkerTextFormatter.Companion.invoke(): MarkerTextF
 
 private class AppleMarkerTextFormatter(
     private val formatter: NSNumberFormatter = NSNumberFormatter().apply {
+        @Suppress("MagicNumber")
         maximumFractionDigits = 1UL
-    }
+    },
 ) : MarkerTextFormatter {
     override fun format(value: Float): String {
-        return formatter.stringFromNumber(NSNumber(value)) ?: error("Can not format `$value`")
+        return formatter.stringFromNumber(NSNumber(value + 0.0)) ?: error("Can not format `$value`")
     }
 }

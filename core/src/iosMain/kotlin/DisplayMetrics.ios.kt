@@ -9,8 +9,19 @@ package at.released.debuglayout
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import platform.UIKit.UIScreen
 
 @Composable
 internal actual fun Modifier.getDisplayMetrics(): DisplayMetrics {
-    ret
+    // XXX wrong, not tested
+    val scale = UIScreen.mainScreen.scale.toFloat()
+
+    @Suppress("MagicNumber")
+    val dpi = scale * 163f
+
+    return DisplayMetrics(
+        density = scale,
+        xdpi = dpi,
+        ydpi = dpi,
+    )
 }

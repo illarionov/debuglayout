@@ -13,5 +13,5 @@ import androidx.compose.ui.text.PlatformTextStyle
 
 internal actual fun getDefaultPlatformTextStyle(): PlatformTextStyle = PlatformTextStyle(
     spanStyle = PlatformSpanStyle.Default,
-    paragraphStyle = PlatformParagraphStyle.Default
+    paragraphStyle = PlatformParagraphStyle.Default,
 )
