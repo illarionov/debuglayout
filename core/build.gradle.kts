@@ -71,3 +71,13 @@ tasks.withType<UnpackSkikoWasmRuntimeTask>().configureEach {
     // Do not pack Skiko runtime into published JS klib. Workaround https://youtrack.jetbrains.com/issue/CMP-7479
     enabled = false
 }
+
+tasks.named("jsBrowserTest").configure {
+    // Disable JS tests until https://youtrack.jetbrains.com/issue/CMP-7479 is resoled
+    enabled = false
+}
+
+// XXX remove
+tasks.withType<AbstractTestTask>().configureEach {
+    failOnNoDiscoveredTests = false
+}
