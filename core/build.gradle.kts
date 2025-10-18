@@ -17,7 +17,7 @@ plugins {
 }
 
 group = "at.released.debuglayout"
-version = "0.3.0"
+version = "0.4.0-SNAPSHOT"
 
 android {
     namespace = "at.released.debuglayout"
