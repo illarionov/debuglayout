@@ -1,5 +1,17 @@
 # Change Log
 
+##  [0.3.0] - 2025-01-25
+
+### 🚀 New Feature
+
+- Enabled targets: ios{X64,Arm64,SimulatorArm64}, macos{X64,Arm64}
+
+### 🤖 Dependencies
+
+- Compose 1.9.3
+- Kotlin 2.2.20
+- Other internal dependencies
+
 ##  [0.2] - 2025-01-25
 
 ### 🚀 New Feature

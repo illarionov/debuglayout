@@ -18,7 +18,7 @@ Add the dependency:
 
 ```kotlin
 dependencies {
-    implementation("at.released.debuglayout:core:0.2")
+    implementation("at.released.debuglayout:core:0.3.0")
 }
 ```
 
