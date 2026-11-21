@@ -1,0 +1,589 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64, iosX64, js, macosArm64, macosX64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <at.released.debuglayout:core>
+final enum class at.released.debuglayout/LargeLayoutRegions : kotlin/Enum<at.released.debuglayout/LargeLayoutRegions> { // at.released.debuglayout/LargeLayoutRegions|null[0]
+    enum entry EXPANDED // at.released.debuglayout/LargeLayoutRegions.EXPANDED|null[0]
+    enum entry OFF // at.released.debuglayout/LargeLayoutRegions.OFF|null[0]
+    enum entry ON // at.released.debuglayout/LargeLayoutRegions.ON|null[0]
+
+    final val entries // at.released.debuglayout/LargeLayoutRegions.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<at.released.debuglayout/LargeLayoutRegions> // at.released.debuglayout/LargeLayoutRegions.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): at.released.debuglayout/LargeLayoutRegions // at.released.debuglayout/LargeLayoutRegions.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<at.released.debuglayout/LargeLayoutRegions> // at.released.debuglayout/LargeLayoutRegions.values|values#static(){}[0]
+}
+
+final class at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint { // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint|null[0]
+    constructor <init>(at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment = ..., at.released.debuglayout.ruler/DebugRulerMeasureUnit = ...) // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.<init>|<init>(at.released.debuglayout.ruler.DebugRulerHorizontalZeroPoint.Alignment;at.released.debuglayout.ruler.DebugRulerMeasureUnit){}[0]
+
+    final val alignment // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.alignment|{}alignment[0]
+        final fun <get-alignment>(): at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.alignment.<get-alignment>|<get-alignment>(){}[0]
+    final val offset // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.offset|{}offset[0]
+        final fun <get-offset>(): at.released.debuglayout.ruler/DebugRulerMeasureUnit // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.offset.<get-offset>|<get-offset>(){}[0]
+
+    final fun component1(): at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.component1|component1(){}[0]
+    final fun component2(): at.released.debuglayout.ruler/DebugRulerMeasureUnit // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.component2|component2(){}[0]
+    final fun copy(at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment = ..., at.released.debuglayout.ruler/DebugRulerMeasureUnit = ...): at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.copy|copy(at.released.debuglayout.ruler.DebugRulerHorizontalZeroPoint.Alignment;at.released.debuglayout.ruler.DebugRulerMeasureUnit){}[0]
+    final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.equals|equals(kotlin.Any?){}[0]
+    final fun hashCode(): kotlin/Int // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.hashCode|hashCode(){}[0]
+    final fun toString(): kotlin/String // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.toString|toString(){}[0]
+
+    final enum class Alignment : kotlin/Enum<at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment> { // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment|null[0]
+        enum entry CENTER // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment.CENTER|null[0]
+        enum entry LEFT // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment.LEFT|null[0]
+        enum entry RIGHT // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment.RIGHT|null[0]
+
+        final val entries // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment.entries|#static{}entries[0]
+            final fun <get-entries>(): kotlin.enums/EnumEntries<at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment> // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment.entries.<get-entries>|<get-entries>#static(){}[0]
+
+        final fun valueOf(kotlin/String): at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment.valueOf|valueOf#static(kotlin.String){}[0]
+        final fun values(): kotlin/Array<at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment> // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Alignment.values|values#static(){}[0]
+    }
+
+    final object Companion { // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Companion|null[0]
+        final val ZERO // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Companion.ZERO|{}ZERO[0]
+            final fun <get-ZERO>(): at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint // at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint.Companion.ZERO.<get-ZERO>|<get-ZERO>(){}[0]
+    }
+}
+
+final class at.released.debuglayout.ruler/DebugRulerMeasureUnit { // at.released.debuglayout.ruler/DebugRulerMeasureUnit|null[0]
+    constructor <init>(kotlin/Int, at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit) // at.released.debuglayout.ruler/DebugRulerMeasureUnit.<init>|<init>(kotlin.Int;at.released.debuglayout.ruler.DebugRulerMeasureUnit.Unit){}[0]
+
+    final val units // at.released.debuglayout.ruler/DebugRulerMeasureUnit.units|{}units[0]
+        final fun <get-units>(): at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit // at.released.debuglayout.ruler/DebugRulerMeasureUnit.units.<get-units>|<get-units>(){}[0]
+    final val value // at.released.debuglayout.ruler/DebugRulerMeasureUnit.value|{}value[0]
+        final fun <get-value>(): kotlin/Int // at.released.debuglayout.ruler/DebugRulerMeasureUnit.value.<get-value>|<get-value>(){}[0]
+
+    final fun component1(): kotlin/Int // at.released.debuglayout.ruler/DebugRulerMeasureUnit.component1|component1(){}[0]
+    final fun component2(): at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit // at.released.debuglayout.ruler/DebugRulerMeasureUnit.component2|component2(){}[0]
+    final fun copy(kotlin/Int = ..., at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit = ...): at.released.debuglayout.ruler/DebugRulerMeasureUnit // at.released.debuglayout.ruler/DebugRulerMeasureUnit.copy|copy(kotlin.Int;at.released.debuglayout.ruler.DebugRulerMeasureUnit.Unit){}[0]
+    final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.ruler/DebugRulerMeasureUnit.equals|equals(kotlin.Any?){}[0]
+    final fun hashCode(): kotlin/Int // at.released.debuglayout.ruler/DebugRulerMeasureUnit.hashCode|hashCode(){}[0]
+    final fun toString(): kotlin/String // at.released.debuglayout.ruler/DebugRulerMeasureUnit.toString|toString(){}[0]
+
+    final enum class Unit : kotlin/Enum<at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit> { // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit|null[0]
+        enum entry DP // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit.DP|null[0]
+        enum entry INCHES // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit.INCHES|null[0]
+        enum entry MM // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit.MM|null[0]
+        enum entry PX // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit.PX|null[0]
+
+        final val entries // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit.entries|#static{}entries[0]
+            final fun <get-entries>(): kotlin.enums/EnumEntries<at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit> // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit.entries.<get-entries>|<get-entries>#static(){}[0]
+
+        final fun valueOf(kotlin/String): at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit.valueOf|valueOf#static(kotlin.String){}[0]
+        final fun values(): kotlin/Array<at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit> // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Unit.values|values#static(){}[0]
+    }
+
+    final object Companion { // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Companion|null[0]
+        final val ZERO // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Companion.ZERO|{}ZERO[0]
+            final fun <get-ZERO>(): at.released.debuglayout.ruler/DebugRulerMeasureUnit // at.released.debuglayout.ruler/DebugRulerMeasureUnit.Companion.ZERO.<get-ZERO>|<get-ZERO>(){}[0]
+    }
+}
+
+final class at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint { // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint|null[0]
+    constructor <init>(at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment = ..., at.released.debuglayout.ruler/DebugRulerMeasureUnit = ...) // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.<init>|<init>(at.released.debuglayout.ruler.DebugRulerVerticalZeroPoint.Alignment;at.released.debuglayout.ruler.DebugRulerMeasureUnit){}[0]
+
+    final val alignment // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.alignment|{}alignment[0]
+        final fun <get-alignment>(): at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.alignment.<get-alignment>|<get-alignment>(){}[0]
+    final val offset // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.offset|{}offset[0]
+        final fun <get-offset>(): at.released.debuglayout.ruler/DebugRulerMeasureUnit // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.offset.<get-offset>|<get-offset>(){}[0]
+
+    final fun component1(): at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.component1|component1(){}[0]
+    final fun component2(): at.released.debuglayout.ruler/DebugRulerMeasureUnit // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.component2|component2(){}[0]
+    final fun copy(at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment = ..., at.released.debuglayout.ruler/DebugRulerMeasureUnit = ...): at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.copy|copy(at.released.debuglayout.ruler.DebugRulerVerticalZeroPoint.Alignment;at.released.debuglayout.ruler.DebugRulerMeasureUnit){}[0]
+    final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.equals|equals(kotlin.Any?){}[0]
+    final fun hashCode(): kotlin/Int // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.hashCode|hashCode(){}[0]
+    final fun toString(): kotlin/String // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.toString|toString(){}[0]
+
+    final enum class Alignment : kotlin/Enum<at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment> { // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment|null[0]
+        enum entry BOTTOM // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment.BOTTOM|null[0]
+        enum entry CENTER // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment.CENTER|null[0]
+        enum entry TOP // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment.TOP|null[0]
+
+        final val entries // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment.entries|#static{}entries[0]
+            final fun <get-entries>(): kotlin.enums/EnumEntries<at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment> // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment.entries.<get-entries>|<get-entries>#static(){}[0]
+
+        final fun valueOf(kotlin/String): at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment.valueOf|valueOf#static(kotlin.String){}[0]
+        final fun values(): kotlin/Array<at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment> // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Alignment.values|values#static(){}[0]
+    }
+
+    final object Companion { // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Companion|null[0]
+        final val ZERO // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Companion.ZERO|{}ZERO[0]
+            final fun <get-ZERO>(): at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint // at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint.Companion.ZERO.<get-ZERO>|<get-ZERO>(){}[0]
+    }
+}
+
+final class at.released.debuglayout/DebugLayout { // at.released.debuglayout/DebugLayout|null[0]
+    final fun columns(at.released.debuglayout.rowcolumn/DebugColumnsArrangement = ..., at.released.debuglayout.rowcolumn/RowsColumnsCount = ..., androidx.compose.ui.graphics/Color = ...) // at.released.debuglayout/DebugLayout.columns|columns(at.released.debuglayout.rowcolumn.DebugColumnsArrangement;at.released.debuglayout.rowcolumn.RowsColumnsCount;androidx.compose.ui.graphics.Color){}[0]
+    final fun grid(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.graphics/Color = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout/DebugLayout.grid|grid(androidx.compose.ui.unit.Dp;androidx.compose.ui.graphics.Color;androidx.compose.ui.unit.Dp){}[0]
+    final fun guideline(at.released.debuglayout.guideline/DebugGuidelinePosition = ..., androidx.compose.ui.graphics/Color = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout/DebugLayout.guideline|guideline(at.released.debuglayout.guideline.DebugGuidelinePosition;androidx.compose.ui.graphics.Color;androidx.compose.ui.unit.Dp){}[0]
+    final fun horizontalRuler(at.released.debuglayout.ruler/DebugRulerMeasureUnit = ..., at.released.debuglayout.ruler/DebugRulerHorizontalZeroPoint = ...) // at.released.debuglayout/DebugLayout.horizontalRuler|horizontalRuler(at.released.debuglayout.ruler.DebugRulerMeasureUnit;at.released.debuglayout.ruler.DebugRulerHorizontalZeroPoint){}[0]
+    final fun rows(at.released.debuglayout.rowcolumn/DebugRowsArrangement = ..., at.released.debuglayout.rowcolumn/RowsColumnsCount = ..., androidx.compose.ui.graphics/Color = ...) // at.released.debuglayout/DebugLayout.rows|rows(at.released.debuglayout.rowcolumn.DebugRowsArrangement;at.released.debuglayout.rowcolumn.RowsColumnsCount;androidx.compose.ui.graphics.Color){}[0]
+    final fun verticalRuler(at.released.debuglayout.ruler/DebugRulerMeasureUnit = ..., at.released.debuglayout.ruler/DebugRulerVerticalZeroPoint = ...) // at.released.debuglayout/DebugLayout.verticalRuler|verticalRuler(at.released.debuglayout.ruler.DebugRulerMeasureUnit;at.released.debuglayout.ruler.DebugRulerVerticalZeroPoint){}[0]
+
+    final object Companion { // at.released.debuglayout/DebugLayout.Companion|null[0]
+        final fun (androidx.compose.ui/Modifier).debugLayout(androidx.compose.ui.text/TextMeasurer?, kotlin/Function1<at.released.debuglayout/DebugLayout, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int): androidx.compose.ui/Modifier // at.released.debuglayout/DebugLayout.Companion.debugLayout|debugLayout@androidx.compose.ui.Modifier(androidx.compose.ui.text.TextMeasurer?;kotlin.Function1<at.released.debuglayout.DebugLayout,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+        final fun (androidx.compose.ui/Modifier).debugLayoutColumns(at.released.debuglayout.rowcolumn/DebugColumnsArrangement = ..., at.released.debuglayout.rowcolumn/RowsColumnsCount = ..., androidx.compose.ui.graphics/Color = ...): androidx.compose.ui/Modifier // at.released.debuglayout/DebugLayout.Companion.debugLayoutColumns|debugLayoutColumns@androidx.compose.ui.Modifier(at.released.debuglayout.rowcolumn.DebugColumnsArrangement;at.released.debuglayout.rowcolumn.RowsColumnsCount;androidx.compose.ui.graphics.Color){}[0]
+        final fun (androidx.compose.ui/Modifier).debugLayoutGrid(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.graphics/Color = ..., androidx.compose.ui.unit/Dp = ...): androidx.compose.ui/Modifier // at.released.debuglayout/DebugLayout.Companion.debugLayoutGrid|debugLayoutGrid@androidx.compose.ui.Modifier(androidx.compose.ui.unit.Dp;androidx.compose.ui.graphics.Color;androidx.compose.ui.unit.Dp){}[0]
+        final fun (androidx.compose.ui/Modifier).debugLayoutGuideline(at.released.debuglayout.guideline/DebugGuidelinePosition = ..., androidx.compose.ui.graphics/Color = ..., androidx.compose.ui.unit/Dp = ...): androidx.compose.ui/Modifier // at.released.debuglayout/DebugLayout.Companion.debugLayoutGuideline|debugLayoutGuideline@androidx.compose.ui.Modifier(at.released.debuglayout.guideline.DebugGuidelinePosition;androidx.compose.ui.graphics.Color;androidx.compose.ui.unit.Dp){}[0]
+        final fun (androidx.compose.ui/Modifier).debugLayoutRows(at.released.debuglayout.rowcolumn/DebugRowsArrangement = ..., at.released.debuglayout.rowcolumn/RowsColumnsCount = ..., androidx.compose.ui.graphics/Color = ...): androidx.compose.ui/Modifier // at.released.debuglayout/DebugLayout.Companion.debugLayoutRows|debugLayoutRows@androidx.compose.ui.Modifier(at.released.debuglayout.rowcolumn.DebugRowsArrangement;at.released.debuglayout.rowcolumn.RowsColumnsCount;androidx.compose.ui.graphics.Color){}[0]
+    }
+}
+
+final value class at.released.debuglayout.rowcolumn/RowsColumnsCount { // at.released.debuglayout.rowcolumn/RowsColumnsCount|null[0]
+    constructor <init>(kotlin/Int) // at.released.debuglayout.rowcolumn/RowsColumnsCount.<init>|<init>(kotlin.Int){}[0]
+
+    final val value // at.released.debuglayout.rowcolumn/RowsColumnsCount.value|{}value[0]
+        final fun <get-value>(): kotlin/Int // at.released.debuglayout.rowcolumn/RowsColumnsCount.value.<get-value>|<get-value>(){}[0]
+
+    final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.rowcolumn/RowsColumnsCount.equals|equals(kotlin.Any?){}[0]
+    final fun hashCode(): kotlin/Int // at.released.debuglayout.rowcolumn/RowsColumnsCount.hashCode|hashCode(){}[0]
+    final fun toString(): kotlin/String // at.released.debuglayout.rowcolumn/RowsColumnsCount.toString|toString(){}[0]
+
+    final object Companion { // at.released.debuglayout.rowcolumn/RowsColumnsCount.Companion|null[0]
+        final val Auto // at.released.debuglayout.rowcolumn/RowsColumnsCount.Companion.Auto|{}Auto[0]
+            final fun <get-Auto>(): at.released.debuglayout.rowcolumn/RowsColumnsCount // at.released.debuglayout.rowcolumn/RowsColumnsCount.Companion.Auto.<get-Auto>|<get-Auto>(){}[0]
+    }
+}
+
+sealed class at.released.debuglayout.guideline/DebugGuidelineOffset { // at.released.debuglayout.guideline/DebugGuidelineOffset|null[0]
+    final class Dp : at.released.debuglayout.guideline/DebugGuidelineOffset { // at.released.debuglayout.guideline/DebugGuidelineOffset.Dp|null[0]
+        constructor <init>(androidx.compose.ui.unit/Dp) // at.released.debuglayout.guideline/DebugGuidelineOffset.Dp.<init>|<init>(androidx.compose.ui.unit.Dp){}[0]
+
+        final val value // at.released.debuglayout.guideline/DebugGuidelineOffset.Dp.value|{}value[0]
+            final fun <get-value>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.guideline/DebugGuidelineOffset.Dp.value.<get-value>|<get-value>(){}[0]
+
+        final fun component1(): androidx.compose.ui.unit/Dp // at.released.debuglayout.guideline/DebugGuidelineOffset.Dp.component1|component1(){}[0]
+        final fun copy(androidx.compose.ui.unit/Dp = ...): at.released.debuglayout.guideline/DebugGuidelineOffset.Dp // at.released.debuglayout.guideline/DebugGuidelineOffset.Dp.copy|copy(androidx.compose.ui.unit.Dp){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.guideline/DebugGuidelineOffset.Dp.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.guideline/DebugGuidelineOffset.Dp.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.guideline/DebugGuidelineOffset.Dp.toString|toString(){}[0]
+    }
+
+    final class Percent : at.released.debuglayout.guideline/DebugGuidelineOffset { // at.released.debuglayout.guideline/DebugGuidelineOffset.Percent|null[0]
+        constructor <init>(kotlin/Float) // at.released.debuglayout.guideline/DebugGuidelineOffset.Percent.<init>|<init>(kotlin.Float){}[0]
+
+        final val value // at.released.debuglayout.guideline/DebugGuidelineOffset.Percent.value|{}value[0]
+            final fun <get-value>(): kotlin/Float // at.released.debuglayout.guideline/DebugGuidelineOffset.Percent.value.<get-value>|<get-value>(){}[0]
+
+        final fun component1(): kotlin/Float // at.released.debuglayout.guideline/DebugGuidelineOffset.Percent.component1|component1(){}[0]
+        final fun copy(kotlin/Float = ...): at.released.debuglayout.guideline/DebugGuidelineOffset.Percent // at.released.debuglayout.guideline/DebugGuidelineOffset.Percent.copy|copy(kotlin.Float){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.guideline/DebugGuidelineOffset.Percent.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.guideline/DebugGuidelineOffset.Percent.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.guideline/DebugGuidelineOffset.Percent.toString|toString(){}[0]
+    }
+}
+
+sealed class at.released.debuglayout.guideline/DebugGuidelinePosition { // at.released.debuglayout.guideline/DebugGuidelinePosition|null[0]
+    final class Bottom : at.released.debuglayout.guideline/DebugGuidelinePosition { // at.released.debuglayout.guideline/DebugGuidelinePosition.Bottom|null[0]
+        constructor <init>(at.released.debuglayout.guideline/DebugGuidelineOffset = ...) // at.released.debuglayout.guideline/DebugGuidelinePosition.Bottom.<init>|<init>(at.released.debuglayout.guideline.DebugGuidelineOffset){}[0]
+
+        final val offset // at.released.debuglayout.guideline/DebugGuidelinePosition.Bottom.offset|{}offset[0]
+            final fun <get-offset>(): at.released.debuglayout.guideline/DebugGuidelineOffset // at.released.debuglayout.guideline/DebugGuidelinePosition.Bottom.offset.<get-offset>|<get-offset>(){}[0]
+
+        final fun component1(): at.released.debuglayout.guideline/DebugGuidelineOffset // at.released.debuglayout.guideline/DebugGuidelinePosition.Bottom.component1|component1(){}[0]
+        final fun copy(at.released.debuglayout.guideline/DebugGuidelineOffset = ...): at.released.debuglayout.guideline/DebugGuidelinePosition.Bottom // at.released.debuglayout.guideline/DebugGuidelinePosition.Bottom.copy|copy(at.released.debuglayout.guideline.DebugGuidelineOffset){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.guideline/DebugGuidelinePosition.Bottom.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.guideline/DebugGuidelinePosition.Bottom.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.guideline/DebugGuidelinePosition.Bottom.toString|toString(){}[0]
+    }
+
+    final class CenterHorizontal : at.released.debuglayout.guideline/DebugGuidelinePosition { // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterHorizontal|null[0]
+        constructor <init>(androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterHorizontal.<init>|<init>(androidx.compose.ui.unit.Dp){}[0]
+
+        final val verticalOffset // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterHorizontal.verticalOffset|{}verticalOffset[0]
+            final fun <get-verticalOffset>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterHorizontal.verticalOffset.<get-verticalOffset>|<get-verticalOffset>(){}[0]
+
+        final fun component1(): androidx.compose.ui.unit/Dp // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterHorizontal.component1|component1(){}[0]
+        final fun copy(androidx.compose.ui.unit/Dp = ...): at.released.debuglayout.guideline/DebugGuidelinePosition.CenterHorizontal // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterHorizontal.copy|copy(androidx.compose.ui.unit.Dp){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterHorizontal.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterHorizontal.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterHorizontal.toString|toString(){}[0]
+    }
+
+    final class CenterVertical : at.released.debuglayout.guideline/DebugGuidelinePosition { // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterVertical|null[0]
+        constructor <init>(androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterVertical.<init>|<init>(androidx.compose.ui.unit.Dp){}[0]
+
+        final val horizontalOffset // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterVertical.horizontalOffset|{}horizontalOffset[0]
+            final fun <get-horizontalOffset>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterVertical.horizontalOffset.<get-horizontalOffset>|<get-horizontalOffset>(){}[0]
+
+        final fun component1(): androidx.compose.ui.unit/Dp // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterVertical.component1|component1(){}[0]
+        final fun copy(androidx.compose.ui.unit/Dp = ...): at.released.debuglayout.guideline/DebugGuidelinePosition.CenterVertical // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterVertical.copy|copy(androidx.compose.ui.unit.Dp){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterVertical.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterVertical.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.guideline/DebugGuidelinePosition.CenterVertical.toString|toString(){}[0]
+    }
+
+    final class End : at.released.debuglayout.guideline/DebugGuidelinePosition { // at.released.debuglayout.guideline/DebugGuidelinePosition.End|null[0]
+        constructor <init>(at.released.debuglayout.guideline/DebugGuidelineOffset = ...) // at.released.debuglayout.guideline/DebugGuidelinePosition.End.<init>|<init>(at.released.debuglayout.guideline.DebugGuidelineOffset){}[0]
+
+        final val offset // at.released.debuglayout.guideline/DebugGuidelinePosition.End.offset|{}offset[0]
+            final fun <get-offset>(): at.released.debuglayout.guideline/DebugGuidelineOffset // at.released.debuglayout.guideline/DebugGuidelinePosition.End.offset.<get-offset>|<get-offset>(){}[0]
+
+        final fun component1(): at.released.debuglayout.guideline/DebugGuidelineOffset // at.released.debuglayout.guideline/DebugGuidelinePosition.End.component1|component1(){}[0]
+        final fun copy(at.released.debuglayout.guideline/DebugGuidelineOffset = ...): at.released.debuglayout.guideline/DebugGuidelinePosition.End // at.released.debuglayout.guideline/DebugGuidelinePosition.End.copy|copy(at.released.debuglayout.guideline.DebugGuidelineOffset){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.guideline/DebugGuidelinePosition.End.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.guideline/DebugGuidelinePosition.End.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.guideline/DebugGuidelinePosition.End.toString|toString(){}[0]
+    }
+
+    final class Start : at.released.debuglayout.guideline/DebugGuidelinePosition { // at.released.debuglayout.guideline/DebugGuidelinePosition.Start|null[0]
+        constructor <init>(at.released.debuglayout.guideline/DebugGuidelineOffset = ...) // at.released.debuglayout.guideline/DebugGuidelinePosition.Start.<init>|<init>(at.released.debuglayout.guideline.DebugGuidelineOffset){}[0]
+
+        final val offset // at.released.debuglayout.guideline/DebugGuidelinePosition.Start.offset|{}offset[0]
+            final fun <get-offset>(): at.released.debuglayout.guideline/DebugGuidelineOffset // at.released.debuglayout.guideline/DebugGuidelinePosition.Start.offset.<get-offset>|<get-offset>(){}[0]
+
+        final fun component1(): at.released.debuglayout.guideline/DebugGuidelineOffset // at.released.debuglayout.guideline/DebugGuidelinePosition.Start.component1|component1(){}[0]
+        final fun copy(at.released.debuglayout.guideline/DebugGuidelineOffset = ...): at.released.debuglayout.guideline/DebugGuidelinePosition.Start // at.released.debuglayout.guideline/DebugGuidelinePosition.Start.copy|copy(at.released.debuglayout.guideline.DebugGuidelineOffset){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.guideline/DebugGuidelinePosition.Start.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.guideline/DebugGuidelinePosition.Start.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.guideline/DebugGuidelinePosition.Start.toString|toString(){}[0]
+    }
+
+    final class Top : at.released.debuglayout.guideline/DebugGuidelinePosition { // at.released.debuglayout.guideline/DebugGuidelinePosition.Top|null[0]
+        constructor <init>(at.released.debuglayout.guideline/DebugGuidelineOffset = ...) // at.released.debuglayout.guideline/DebugGuidelinePosition.Top.<init>|<init>(at.released.debuglayout.guideline.DebugGuidelineOffset){}[0]
+
+        final val offset // at.released.debuglayout.guideline/DebugGuidelinePosition.Top.offset|{}offset[0]
+            final fun <get-offset>(): at.released.debuglayout.guideline/DebugGuidelineOffset // at.released.debuglayout.guideline/DebugGuidelinePosition.Top.offset.<get-offset>|<get-offset>(){}[0]
+
+        final fun component1(): at.released.debuglayout.guideline/DebugGuidelineOffset // at.released.debuglayout.guideline/DebugGuidelinePosition.Top.component1|component1(){}[0]
+        final fun copy(at.released.debuglayout.guideline/DebugGuidelineOffset = ...): at.released.debuglayout.guideline/DebugGuidelinePosition.Top // at.released.debuglayout.guideline/DebugGuidelinePosition.Top.copy|copy(at.released.debuglayout.guideline.DebugGuidelineOffset){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.guideline/DebugGuidelinePosition.Top.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.guideline/DebugGuidelinePosition.Top.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.guideline/DebugGuidelinePosition.Top.toString|toString(){}[0]
+    }
+}
+
+sealed class at.released.debuglayout.rowcolumn/DebugColumnsArrangement { // at.released.debuglayout.rowcolumn/DebugColumnsArrangement|null[0]
+    final class Center : at.released.debuglayout.rowcolumn/DebugColumnsArrangement { // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center|null[0]
+        constructor <init>(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center.<init>|<init>(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+
+        final val gutter // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center.gutter|{}gutter[0]
+            final fun <get-gutter>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center.gutter.<get-gutter>|<get-gutter>(){}[0]
+        final val width // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center.width|{}width[0]
+            final fun <get-width>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center.width.<get-width>|<get-width>(){}[0]
+
+        final fun component1(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center.component1|component1(){}[0]
+        final fun component2(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center.component2|component2(){}[0]
+        final fun copy(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center.copy|copy(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Center.toString|toString(){}[0]
+    }
+
+    final class Left : at.released.debuglayout.rowcolumn/DebugColumnsArrangement { // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left|null[0]
+        constructor <init>(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.<init>|<init>(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+
+        final val gutter // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.gutter|{}gutter[0]
+            final fun <get-gutter>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.gutter.<get-gutter>|<get-gutter>(){}[0]
+        final val offset // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.offset|{}offset[0]
+            final fun <get-offset>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.offset.<get-offset>|<get-offset>(){}[0]
+        final val width // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.width|{}width[0]
+            final fun <get-width>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.width.<get-width>|<get-width>(){}[0]
+
+        final fun component1(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.component1|component1(){}[0]
+        final fun component2(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.component2|component2(){}[0]
+        final fun component3(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.component3|component3(){}[0]
+        final fun copy(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.copy|copy(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Left.toString|toString(){}[0]
+    }
+
+    final class Right : at.released.debuglayout.rowcolumn/DebugColumnsArrangement { // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right|null[0]
+        constructor <init>(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.<init>|<init>(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+
+        final val gutter // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.gutter|{}gutter[0]
+            final fun <get-gutter>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.gutter.<get-gutter>|<get-gutter>(){}[0]
+        final val offset // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.offset|{}offset[0]
+            final fun <get-offset>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.offset.<get-offset>|<get-offset>(){}[0]
+        final val width // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.width|{}width[0]
+            final fun <get-width>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.width.<get-width>|<get-width>(){}[0]
+
+        final fun component1(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.component1|component1(){}[0]
+        final fun component2(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.component2|component2(){}[0]
+        final fun component3(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.component3|component3(){}[0]
+        final fun copy(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.copy|copy(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Right.toString|toString(){}[0]
+    }
+
+    final class Stretch : at.released.debuglayout.rowcolumn/DebugColumnsArrangement { // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch|null[0]
+        constructor <init>(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch.<init>|<init>(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+
+        final val gutter // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch.gutter|{}gutter[0]
+            final fun <get-gutter>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch.gutter.<get-gutter>|<get-gutter>(){}[0]
+        final val margin // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch.margin|{}margin[0]
+            final fun <get-margin>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch.margin.<get-margin>|<get-margin>(){}[0]
+
+        final fun component1(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch.component1|component1(){}[0]
+        final fun component2(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch.component2|component2(){}[0]
+        final fun copy(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch.copy|copy(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.rowcolumn/DebugColumnsArrangement.Stretch.toString|toString(){}[0]
+    }
+}
+
+sealed class at.released.debuglayout.rowcolumn/DebugRowsArrangement { // at.released.debuglayout.rowcolumn/DebugRowsArrangement|null[0]
+    final class Bottom : at.released.debuglayout.rowcolumn/DebugRowsArrangement { // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom|null[0]
+        constructor <init>(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.<init>|<init>(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+
+        final val gutter // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.gutter|{}gutter[0]
+            final fun <get-gutter>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.gutter.<get-gutter>|<get-gutter>(){}[0]
+        final val height // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.height|{}height[0]
+            final fun <get-height>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.height.<get-height>|<get-height>(){}[0]
+        final val offset // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.offset|{}offset[0]
+            final fun <get-offset>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.offset.<get-offset>|<get-offset>(){}[0]
+
+        final fun component1(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.component1|component1(){}[0]
+        final fun component2(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.component2|component2(){}[0]
+        final fun component3(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.component3|component3(){}[0]
+        final fun copy(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.copy|copy(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Bottom.toString|toString(){}[0]
+    }
+
+    final class Center : at.released.debuglayout.rowcolumn/DebugRowsArrangement { // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center|null[0]
+        constructor <init>(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center.<init>|<init>(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+
+        final val gutter // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center.gutter|{}gutter[0]
+            final fun <get-gutter>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center.gutter.<get-gutter>|<get-gutter>(){}[0]
+        final val height // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center.height|{}height[0]
+            final fun <get-height>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center.height.<get-height>|<get-height>(){}[0]
+
+        final fun component1(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center.component1|component1(){}[0]
+        final fun component2(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center.component2|component2(){}[0]
+        final fun copy(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center.copy|copy(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Center.toString|toString(){}[0]
+    }
+
+    final class Stretch : at.released.debuglayout.rowcolumn/DebugRowsArrangement { // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch|null[0]
+        constructor <init>(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch.<init>|<init>(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+
+        final val gutter // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch.gutter|{}gutter[0]
+            final fun <get-gutter>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch.gutter.<get-gutter>|<get-gutter>(){}[0]
+        final val margin // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch.margin|{}margin[0]
+            final fun <get-margin>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch.margin.<get-margin>|<get-margin>(){}[0]
+
+        final fun component1(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch.component1|component1(){}[0]
+        final fun component2(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch.component2|component2(){}[0]
+        final fun copy(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch.copy|copy(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Stretch.toString|toString(){}[0]
+    }
+
+    final class Top : at.released.debuglayout.rowcolumn/DebugRowsArrangement { // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top|null[0]
+        constructor <init>(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.<init>|<init>(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+
+        final val gutter // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.gutter|{}gutter[0]
+            final fun <get-gutter>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.gutter.<get-gutter>|<get-gutter>(){}[0]
+        final val height // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.height|{}height[0]
+            final fun <get-height>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.height.<get-height>|<get-height>(){}[0]
+        final val offset // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.offset|{}offset[0]
+            final fun <get-offset>(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.offset.<get-offset>|<get-offset>(){}[0]
+
+        final fun component1(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.component1|component1(){}[0]
+        final fun component2(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.component2|component2(){}[0]
+        final fun component3(): androidx.compose.ui.unit/Dp // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.component3|component3(){}[0]
+        final fun copy(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ...): at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.copy|copy(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp){}[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.hashCode|hashCode(){}[0]
+        final fun toString(): kotlin/String // at.released.debuglayout.rowcolumn/DebugRowsArrangement.Top.toString|toString(){}[0]
+    }
+}
+
+final object at.released.debuglayout/DebugLayoutDefaults { // at.released.debuglayout/DebugLayoutDefaults|null[0]
+    final val colorGuidelines // at.released.debuglayout/DebugLayoutDefaults.colorGuidelines|{}colorGuidelines[0]
+        final fun <get-colorGuidelines>(): androidx.compose.ui.graphics/Color // at.released.debuglayout/DebugLayoutDefaults.colorGuidelines.<get-colorGuidelines>|<get-colorGuidelines>(){}[0]
+    final val colorPrimary // at.released.debuglayout/DebugLayoutDefaults.colorPrimary|{}colorPrimary[0]
+        final fun <get-colorPrimary>(): androidx.compose.ui.graphics/Color // at.released.debuglayout/DebugLayoutDefaults.colorPrimary.<get-colorPrimary>|<get-colorPrimary>(){}[0]
+    final val colorSecondary // at.released.debuglayout/DebugLayoutDefaults.colorSecondary|{}colorSecondary[0]
+        final fun <get-colorSecondary>(): androidx.compose.ui.graphics/Color // at.released.debuglayout/DebugLayoutDefaults.colorSecondary.<get-colorSecondary>|<get-colorSecondary>(){}[0]
+    final val colorTertiary // at.released.debuglayout/DebugLayoutDefaults.colorTertiary|{}colorTertiary[0]
+        final fun <get-colorTertiary>(): androidx.compose.ui.graphics/Color // at.released.debuglayout/DebugLayoutDefaults.colorTertiary.<get-colorTertiary>|<get-colorTertiary>(){}[0]
+
+    final object Column { // at.released.debuglayout/DebugLayoutDefaults.Column|null[0]
+        final val color // at.released.debuglayout/DebugLayoutDefaults.Column.color|{}color[0]
+            final fun <get-color>(): androidx.compose.ui.graphics/Color // at.released.debuglayout/DebugLayoutDefaults.Column.color.<get-color>|<get-color>(){}[0]
+        final val defaultColumns // at.released.debuglayout/DebugLayoutDefaults.Column.defaultColumns|{}defaultColumns[0]
+            final fun <get-defaultColumns>(): at.released.debuglayout.rowcolumn/RowsColumnsCount // at.released.debuglayout/DebugLayoutDefaults.Column.defaultColumns.<get-defaultColumns>|<get-defaultColumns>(){}[0]
+        final val gutter // at.released.debuglayout/DebugLayoutDefaults.Column.gutter|{}gutter[0]
+            final fun <get-gutter>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Column.gutter.<get-gutter>|<get-gutter>(){}[0]
+        final val margin // at.released.debuglayout/DebugLayoutDefaults.Column.margin|{}margin[0]
+            final fun <get-margin>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Column.margin.<get-margin>|<get-margin>(){}[0]
+        final val offset // at.released.debuglayout/DebugLayoutDefaults.Column.offset|{}offset[0]
+            final fun <get-offset>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Column.offset.<get-offset>|<get-offset>(){}[0]
+        final val width // at.released.debuglayout/DebugLayoutDefaults.Column.width|{}width[0]
+            final fun <get-width>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Column.width.<get-width>|<get-width>(){}[0]
+    }
+
+    final object Grid { // at.released.debuglayout/DebugLayoutDefaults.Grid|null[0]
+        final val color // at.released.debuglayout/DebugLayoutDefaults.Grid.color|{}color[0]
+            final fun <get-color>(): androidx.compose.ui.graphics/Color // at.released.debuglayout/DebugLayoutDefaults.Grid.color.<get-color>|<get-color>(){}[0]
+        final val size // at.released.debuglayout/DebugLayoutDefaults.Grid.size|{}size[0]
+            final fun <get-size>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Grid.size.<get-size>|<get-size>(){}[0]
+        final val strokeWidth // at.released.debuglayout/DebugLayoutDefaults.Grid.strokeWidth|{}strokeWidth[0]
+            final fun <get-strokeWidth>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Grid.strokeWidth.<get-strokeWidth>|<get-strokeWidth>(){}[0]
+    }
+
+    final object Guideline { // at.released.debuglayout/DebugLayoutDefaults.Guideline|null[0]
+        final val color // at.released.debuglayout/DebugLayoutDefaults.Guideline.color|{}color[0]
+            final fun <get-color>(): androidx.compose.ui.graphics/Color // at.released.debuglayout/DebugLayoutDefaults.Guideline.color.<get-color>|<get-color>(){}[0]
+        final val horizontalOffset // at.released.debuglayout/DebugLayoutDefaults.Guideline.horizontalOffset|{}horizontalOffset[0]
+            final fun <get-horizontalOffset>(): at.released.debuglayout.guideline/DebugGuidelineOffset // at.released.debuglayout/DebugLayoutDefaults.Guideline.horizontalOffset.<get-horizontalOffset>|<get-horizontalOffset>(){}[0]
+        final val strokeWidth // at.released.debuglayout/DebugLayoutDefaults.Guideline.strokeWidth|{}strokeWidth[0]
+            final fun <get-strokeWidth>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Guideline.strokeWidth.<get-strokeWidth>|<get-strokeWidth>(){}[0]
+        final val verticalOffset // at.released.debuglayout/DebugLayoutDefaults.Guideline.verticalOffset|{}verticalOffset[0]
+            final fun <get-verticalOffset>(): at.released.debuglayout.guideline/DebugGuidelineOffset // at.released.debuglayout/DebugLayoutDefaults.Guideline.verticalOffset.<get-verticalOffset>|<get-verticalOffset>(){}[0]
+    }
+
+    final object Row { // at.released.debuglayout/DebugLayoutDefaults.Row|null[0]
+        final val color // at.released.debuglayout/DebugLayoutDefaults.Row.color|{}color[0]
+            final fun <get-color>(): androidx.compose.ui.graphics/Color // at.released.debuglayout/DebugLayoutDefaults.Row.color.<get-color>|<get-color>(){}[0]
+        final val defaultRows // at.released.debuglayout/DebugLayoutDefaults.Row.defaultRows|{}defaultRows[0]
+            final fun <get-defaultRows>(): at.released.debuglayout.rowcolumn/RowsColumnsCount // at.released.debuglayout/DebugLayoutDefaults.Row.defaultRows.<get-defaultRows>|<get-defaultRows>(){}[0]
+        final val gutter // at.released.debuglayout/DebugLayoutDefaults.Row.gutter|{}gutter[0]
+            final fun <get-gutter>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Row.gutter.<get-gutter>|<get-gutter>(){}[0]
+        final val height // at.released.debuglayout/DebugLayoutDefaults.Row.height|{}height[0]
+            final fun <get-height>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Row.height.<get-height>|<get-height>(){}[0]
+        final val margin // at.released.debuglayout/DebugLayoutDefaults.Row.margin|{}margin[0]
+            final fun <get-margin>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Row.margin.<get-margin>|<get-margin>(){}[0]
+        final val offset // at.released.debuglayout/DebugLayoutDefaults.Row.offset|{}offset[0]
+            final fun <get-offset>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Row.offset.<get-offset>|<get-offset>(){}[0]
+    }
+
+    final object Ruler { // at.released.debuglayout/DebugLayoutDefaults.Ruler|null[0]
+        final val backgroundColor // at.released.debuglayout/DebugLayoutDefaults.Ruler.backgroundColor|{}backgroundColor[0]
+            final fun <get-backgroundColor>(): androidx.compose.ui.graphics/Color // at.released.debuglayout/DebugLayoutDefaults.Ruler.backgroundColor.<get-backgroundColor>|<get-backgroundColor>(){}[0]
+        final val horizontalRulerHeight // at.released.debuglayout/DebugLayoutDefaults.Ruler.horizontalRulerHeight|{}horizontalRulerHeight[0]
+            final fun <get-horizontalRulerHeight>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Ruler.horizontalRulerHeight.<get-horizontalRulerHeight>|<get-horizontalRulerHeight>(){}[0]
+        final val majorTickSize // at.released.debuglayout/DebugLayoutDefaults.Ruler.majorTickSize|{}majorTickSize[0]
+            final fun <get-majorTickSize>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Ruler.majorTickSize.<get-majorTickSize>|<get-majorTickSize>(){}[0]
+        final val minorTickSize // at.released.debuglayout/DebugLayoutDefaults.Ruler.minorTickSize|{}minorTickSize[0]
+            final fun <get-minorTickSize>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Ruler.minorTickSize.<get-minorTickSize>|<get-minorTickSize>(){}[0]
+        final val outlineColor // at.released.debuglayout/DebugLayoutDefaults.Ruler.outlineColor|{}outlineColor[0]
+            final fun <get-outlineColor>(): androidx.compose.ui.graphics/Color // at.released.debuglayout/DebugLayoutDefaults.Ruler.outlineColor.<get-outlineColor>|<get-outlineColor>(){}[0]
+        final val step // at.released.debuglayout/DebugLayoutDefaults.Ruler.step|{}step[0]
+            final fun <get-step>(): at.released.debuglayout.ruler/DebugRulerMeasureUnit // at.released.debuglayout/DebugLayoutDefaults.Ruler.step.<get-step>|<get-step>(){}[0]
+        final val textStyle // at.released.debuglayout/DebugLayoutDefaults.Ruler.textStyle|{}textStyle[0]
+            final fun <get-textStyle>(): androidx.compose.ui.text/TextStyle // at.released.debuglayout/DebugLayoutDefaults.Ruler.textStyle.<get-textStyle>|<get-textStyle>(){}[0]
+        final val tickColor // at.released.debuglayout/DebugLayoutDefaults.Ruler.tickColor|{}tickColor[0]
+            final fun <get-tickColor>(): androidx.compose.ui.graphics/Color // at.released.debuglayout/DebugLayoutDefaults.Ruler.tickColor.<get-tickColor>|<get-tickColor>(){}[0]
+        final val tickStrokeWidth // at.released.debuglayout/DebugLayoutDefaults.Ruler.tickStrokeWidth|{}tickStrokeWidth[0]
+            final fun <get-tickStrokeWidth>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Ruler.tickStrokeWidth.<get-tickStrokeWidth>|<get-tickStrokeWidth>(){}[0]
+        final val verticalRulerWidth // at.released.debuglayout/DebugLayoutDefaults.Ruler.verticalRulerWidth|{}verticalRulerWidth[0]
+            final fun <get-verticalRulerWidth>(): androidx.compose.ui.unit/Dp // at.released.debuglayout/DebugLayoutDefaults.Ruler.verticalRulerWidth.<get-verticalRulerWidth>|<get-verticalRulerWidth>(){}[0]
+    }
+}
+
+final val at.released.debuglayout.guideline/asGuidelineOffset // at.released.debuglayout.guideline/asGuidelineOffset|@androidx.compose.ui.unit.Dp{}asGuidelineOffset[0]
+    final inline fun (androidx.compose.ui.unit/Dp).<get-asGuidelineOffset>(): at.released.debuglayout.guideline/DebugGuidelineOffset.Dp // at.released.debuglayout.guideline/asGuidelineOffset.<get-asGuidelineOffset>|<get-asGuidelineOffset>@androidx.compose.ui.unit.Dp(){}[0]
+final val at.released.debuglayout.guideline/asGuidelineOffsetPercent // at.released.debuglayout.guideline/asGuidelineOffsetPercent|@kotlin.Float{}asGuidelineOffsetPercent[0]
+    final inline fun (kotlin/Float).<get-asGuidelineOffsetPercent>(): at.released.debuglayout.guideline/DebugGuidelineOffset.Percent // at.released.debuglayout.guideline/asGuidelineOffsetPercent.<get-asGuidelineOffsetPercent>|<get-asGuidelineOffsetPercent>@kotlin.Float(){}[0]
+final val at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset$stableprop // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset$stableprop|#static{}at_released_debuglayout_guideline_DebugGuidelineOffset$stableprop[0]
+final val at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset_Dp$stableprop // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset_Dp$stableprop|#static{}at_released_debuglayout_guideline_DebugGuidelineOffset_Dp$stableprop[0]
+final val at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset_Percent$stableprop // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset_Percent$stableprop|#static{}at_released_debuglayout_guideline_DebugGuidelineOffset_Percent$stableprop[0]
+final val at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition$stableprop // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition$stableprop|#static{}at_released_debuglayout_guideline_DebugGuidelinePosition$stableprop[0]
+final val at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Bottom$stableprop // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Bottom$stableprop|#static{}at_released_debuglayout_guideline_DebugGuidelinePosition_Bottom$stableprop[0]
+final val at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_CenterHorizontal$stableprop // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_CenterHorizontal$stableprop|#static{}at_released_debuglayout_guideline_DebugGuidelinePosition_CenterHorizontal$stableprop[0]
+final val at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_CenterVertical$stableprop // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_CenterVertical$stableprop|#static{}at_released_debuglayout_guideline_DebugGuidelinePosition_CenterVertical$stableprop[0]
+final val at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_End$stableprop // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_End$stableprop|#static{}at_released_debuglayout_guideline_DebugGuidelinePosition_End$stableprop[0]
+final val at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Start$stableprop // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Start$stableprop|#static{}at_released_debuglayout_guideline_DebugGuidelinePosition_Start$stableprop[0]
+final val at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Top$stableprop // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Top$stableprop|#static{}at_released_debuglayout_guideline_DebugGuidelinePosition_Top$stableprop[0]
+final val at.released.debuglayout.rowcolumn/asRowColumnCount // at.released.debuglayout.rowcolumn/asRowColumnCount|@kotlin.Int{}asRowColumnCount[0]
+    final fun (kotlin/Int).<get-asRowColumnCount>(): at.released.debuglayout.rowcolumn/RowsColumnsCount // at.released.debuglayout.rowcolumn/asRowColumnCount.<get-asRowColumnCount>|<get-asRowColumnCount>@kotlin.Int(){}[0]
+final val at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_ArrangementCalculator_PaintedSubrange$stableprop // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_ArrangementCalculator_PaintedSubrange$stableprop|#static{}at_released_debuglayout_rowcolumn_ArrangementCalculator_PaintedSubrange$stableprop[0]
+final val at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement$stableprop // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement$stableprop|#static{}at_released_debuglayout_rowcolumn_DebugColumnsArrangement$stableprop[0]
+final val at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Center$stableprop // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Center$stableprop|#static{}at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Center$stableprop[0]
+final val at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Left$stableprop // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Left$stableprop|#static{}at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Left$stableprop[0]
+final val at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Right$stableprop // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Right$stableprop|#static{}at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Right$stableprop[0]
+final val at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Stretch$stableprop // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Stretch$stableprop|#static{}at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Stretch$stableprop[0]
+final val at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement$stableprop // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement$stableprop|#static{}at_released_debuglayout_rowcolumn_DebugRowsArrangement$stableprop[0]
+final val at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Bottom$stableprop // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Bottom$stableprop|#static{}at_released_debuglayout_rowcolumn_DebugRowsArrangement_Bottom$stableprop[0]
+final val at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Center$stableprop // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Center$stableprop|#static{}at_released_debuglayout_rowcolumn_DebugRowsArrangement_Center$stableprop[0]
+final val at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Stretch$stableprop // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Stretch$stableprop|#static{}at_released_debuglayout_rowcolumn_DebugRowsArrangement_Stretch$stableprop[0]
+final val at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Top$stableprop // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Top$stableprop|#static{}at_released_debuglayout_rowcolumn_DebugRowsArrangement_Top$stableprop[0]
+final val at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerHorizontalZeroPoint$stableprop // at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerHorizontalZeroPoint$stableprop|#static{}at_released_debuglayout_ruler_DebugRulerHorizontalZeroPoint$stableprop[0]
+final val at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerMeasureUnit$stableprop // at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerMeasureUnit$stableprop|#static{}at_released_debuglayout_ruler_DebugRulerMeasureUnit$stableprop[0]
+final val at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerVerticalZeroPoint$stableprop // at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerVerticalZeroPoint$stableprop|#static{}at_released_debuglayout_ruler_DebugRulerVerticalZeroPoint$stableprop[0]
+final val at.released.debuglayout.ruler/rulerDp // at.released.debuglayout.ruler/rulerDp|@kotlin.Int{}rulerDp[0]
+    final fun (kotlin/Int).<get-rulerDp>(): at.released.debuglayout.ruler/DebugRulerMeasureUnit // at.released.debuglayout.ruler/rulerDp.<get-rulerDp>|<get-rulerDp>@kotlin.Int(){}[0]
+final val at.released.debuglayout.ruler/rulerInches // at.released.debuglayout.ruler/rulerInches|@kotlin.Int{}rulerInches[0]
+    final fun (kotlin/Int).<get-rulerInches>(): at.released.debuglayout.ruler/DebugRulerMeasureUnit // at.released.debuglayout.ruler/rulerInches.<get-rulerInches>|<get-rulerInches>@kotlin.Int(){}[0]
+final val at.released.debuglayout.ruler/rulerMm // at.released.debuglayout.ruler/rulerMm|@kotlin.Int{}rulerMm[0]
+    final fun (kotlin/Int).<get-rulerMm>(): at.released.debuglayout.ruler/DebugRulerMeasureUnit // at.released.debuglayout.ruler/rulerMm.<get-rulerMm>|<get-rulerMm>@kotlin.Int(){}[0]
+final val at.released.debuglayout.ruler/rulerPx // at.released.debuglayout.ruler/rulerPx|@kotlin.Int{}rulerPx[0]
+    final fun (kotlin/Int).<get-rulerPx>(): at.released.debuglayout.ruler/DebugRulerMeasureUnit // at.released.debuglayout.ruler/rulerPx.<get-rulerPx>|<get-rulerPx>@kotlin.Int(){}[0]
+final val at.released.debuglayout/at_released_debuglayout_DebugLayout$stableprop // at.released.debuglayout/at_released_debuglayout_DebugLayout$stableprop|#static{}at_released_debuglayout_DebugLayout$stableprop[0]
+final val at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults$stableprop // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults$stableprop|#static{}at_released_debuglayout_DebugLayoutDefaults$stableprop[0]
+final val at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Column$stableprop // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Column$stableprop|#static{}at_released_debuglayout_DebugLayoutDefaults_Column$stableprop[0]
+final val at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Grid$stableprop // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Grid$stableprop|#static{}at_released_debuglayout_DebugLayoutDefaults_Grid$stableprop[0]
+final val at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Guideline$stableprop // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Guideline$stableprop|#static{}at_released_debuglayout_DebugLayoutDefaults_Guideline$stableprop[0]
+final val at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Row$stableprop // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Row$stableprop|#static{}at_released_debuglayout_DebugLayoutDefaults_Row$stableprop[0]
+final val at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Ruler$stableprop // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Ruler$stableprop|#static{}at_released_debuglayout_DebugLayoutDefaults_Ruler$stableprop[0]
+
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/columnsFromCenter(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ..., at.released.debuglayout.rowcolumn/RowsColumnsCount = ..., androidx.compose.ui.graphics/Color = ...) // at.released.debuglayout/columnsFromCenter|columnsFromCenter@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;at.released.debuglayout.rowcolumn.RowsColumnsCount;androidx.compose.ui.graphics.Color){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/columnsFromLeft(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., at.released.debuglayout.rowcolumn/RowsColumnsCount = ..., androidx.compose.ui.graphics/Color = ...) // at.released.debuglayout/columnsFromLeft|columnsFromLeft@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;at.released.debuglayout.rowcolumn.RowsColumnsCount;androidx.compose.ui.graphics.Color){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/columnsFromRight(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., at.released.debuglayout.rowcolumn/RowsColumnsCount = ..., androidx.compose.ui.graphics/Color = ...) // at.released.debuglayout/columnsFromRight|columnsFromRight@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;at.released.debuglayout.rowcolumn.RowsColumnsCount;androidx.compose.ui.graphics.Color){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/columnsStretch(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., kotlin/Int, androidx.compose.ui.graphics/Color = ...) // at.released.debuglayout/columnsStretch|columnsStretch@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;kotlin.Int;androidx.compose.ui.graphics.Color){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/extraSmallScreen3Columns(kotlin/Boolean = ...) // at.released.debuglayout/extraSmallScreen3Columns|extraSmallScreen3Columns@at.released.debuglayout.DebugLayout(kotlin.Boolean){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/extraSmallScreen4Columns(kotlin/Boolean = ...) // at.released.debuglayout/extraSmallScreen4Columns|extraSmallScreen4Columns@at.released.debuglayout.DebugLayout(kotlin.Boolean){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/guidelineCenterHorizontal(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.graphics/Color = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout/guidelineCenterHorizontal|guidelineCenterHorizontal@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp;androidx.compose.ui.graphics.Color;androidx.compose.ui.unit.Dp){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/guidelineCenterVertical(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.graphics/Color = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout/guidelineCenterVertical|guidelineCenterVertical@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp;androidx.compose.ui.graphics.Color;androidx.compose.ui.unit.Dp){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/guidelineFromBottom(at.released.debuglayout.guideline/DebugGuidelineOffset = ..., androidx.compose.ui.graphics/Color = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout/guidelineFromBottom|guidelineFromBottom@at.released.debuglayout.DebugLayout(at.released.debuglayout.guideline.DebugGuidelineOffset;androidx.compose.ui.graphics.Color;androidx.compose.ui.unit.Dp){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/guidelineFromEnd(at.released.debuglayout.guideline/DebugGuidelineOffset = ..., androidx.compose.ui.graphics/Color = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout/guidelineFromEnd|guidelineFromEnd@at.released.debuglayout.DebugLayout(at.released.debuglayout.guideline.DebugGuidelineOffset;androidx.compose.ui.graphics.Color;androidx.compose.ui.unit.Dp){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/guidelineFromStart(at.released.debuglayout.guideline/DebugGuidelineOffset = ..., androidx.compose.ui.graphics/Color = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout/guidelineFromStart|guidelineFromStart@at.released.debuglayout.DebugLayout(at.released.debuglayout.guideline.DebugGuidelineOffset;androidx.compose.ui.graphics.Color;androidx.compose.ui.unit.Dp){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/guidelineFromTop(at.released.debuglayout.guideline/DebugGuidelineOffset = ..., androidx.compose.ui.graphics/Color = ..., androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout/guidelineFromTop|guidelineFromTop@at.released.debuglayout.DebugLayout(at.released.debuglayout.guideline.DebugGuidelineOffset;androidx.compose.ui.graphics.Color;androidx.compose.ui.unit.Dp){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/largeScreen12Columns(at.released.debuglayout/LargeLayoutRegions = ...) // at.released.debuglayout/largeScreen12Columns|largeScreen12Columns@at.released.debuglayout.DebugLayout(at.released.debuglayout.LargeLayoutRegions){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/mediumLaptopScreen12Columns(kotlin/Boolean = ...) // at.released.debuglayout/mediumLaptopScreen12Columns|mediumLaptopScreen12Columns@at.released.debuglayout.DebugLayout(kotlin.Boolean){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/mediumScreen12Columns(kotlin/Boolean = ...) // at.released.debuglayout/mediumScreen12Columns|mediumScreen12Columns@at.released.debuglayout.DebugLayout(kotlin.Boolean){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/rowBottomNavigationBarArea(androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout/rowBottomNavigationBarArea|rowBottomNavigationBarArea@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/rowTopToolbarArea(androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout/rowTopToolbarArea|rowTopToolbarArea@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/rowsFromBottom(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., at.released.debuglayout.rowcolumn/RowsColumnsCount = ..., androidx.compose.ui.graphics/Color = ...) // at.released.debuglayout/rowsFromBottom|rowsFromBottom@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;at.released.debuglayout.rowcolumn.RowsColumnsCount;androidx.compose.ui.graphics.Color){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/rowsFromCenter(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ..., at.released.debuglayout.rowcolumn/RowsColumnsCount = ..., androidx.compose.ui.graphics/Color = ...) // at.released.debuglayout/rowsFromCenter|rowsFromCenter@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;at.released.debuglayout.rowcolumn.RowsColumnsCount;androidx.compose.ui.graphics.Color){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/rowsFromTop(androidx.compose.ui.unit/Dp, androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., at.released.debuglayout.rowcolumn/RowsColumnsCount = ..., androidx.compose.ui.graphics/Color = ...) // at.released.debuglayout/rowsFromTop|rowsFromTop@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;at.released.debuglayout.rowcolumn.RowsColumnsCount;androidx.compose.ui.graphics.Color){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/rowsStretch(androidx.compose.ui.unit/Dp = ..., androidx.compose.ui.unit/Dp = ..., at.released.debuglayout.rowcolumn/RowsColumnsCount = ..., androidx.compose.ui.graphics/Color = ...) // at.released.debuglayout/rowsStretch|rowsStretch@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp;androidx.compose.ui.unit.Dp;at.released.debuglayout.rowcolumn.RowsColumnsCount;androidx.compose.ui.graphics.Color){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/rowsText4Px(androidx.compose.ui.unit/Dp = ...) // at.released.debuglayout/rowsText4Px|rowsText4Px@at.released.debuglayout.DebugLayout(androidx.compose.ui.unit.Dp){}[0]
+final fun (at.released.debuglayout/DebugLayout).at.released.debuglayout/smallScreen8Columns(kotlin/Boolean = ...) // at.released.debuglayout/smallScreen8Columns|smallScreen8Columns@at.released.debuglayout.DebugLayout(kotlin.Boolean){}[0]
+final fun at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset$stableprop_getter(): kotlin/Int // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset$stableprop_getter|at_released_debuglayout_guideline_DebugGuidelineOffset$stableprop_getter(){}[0]
+final fun at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset_Dp$stableprop_getter(): kotlin/Int // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset_Dp$stableprop_getter|at_released_debuglayout_guideline_DebugGuidelineOffset_Dp$stableprop_getter(){}[0]
+final fun at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset_Percent$stableprop_getter(): kotlin/Int // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelineOffset_Percent$stableprop_getter|at_released_debuglayout_guideline_DebugGuidelineOffset_Percent$stableprop_getter(){}[0]
+final fun at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition$stableprop_getter(): kotlin/Int // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition$stableprop_getter|at_released_debuglayout_guideline_DebugGuidelinePosition$stableprop_getter(){}[0]
+final fun at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Bottom$stableprop_getter(): kotlin/Int // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Bottom$stableprop_getter|at_released_debuglayout_guideline_DebugGuidelinePosition_Bottom$stableprop_getter(){}[0]
+final fun at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_CenterHorizontal$stableprop_getter(): kotlin/Int // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_CenterHorizontal$stableprop_getter|at_released_debuglayout_guideline_DebugGuidelinePosition_CenterHorizontal$stableprop_getter(){}[0]
+final fun at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_CenterVertical$stableprop_getter(): kotlin/Int // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_CenterVertical$stableprop_getter|at_released_debuglayout_guideline_DebugGuidelinePosition_CenterVertical$stableprop_getter(){}[0]
+final fun at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_End$stableprop_getter(): kotlin/Int // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_End$stableprop_getter|at_released_debuglayout_guideline_DebugGuidelinePosition_End$stableprop_getter(){}[0]
+final fun at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Start$stableprop_getter(): kotlin/Int // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Start$stableprop_getter|at_released_debuglayout_guideline_DebugGuidelinePosition_Start$stableprop_getter(){}[0]
+final fun at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Top$stableprop_getter(): kotlin/Int // at.released.debuglayout.guideline/at_released_debuglayout_guideline_DebugGuidelinePosition_Top$stableprop_getter|at_released_debuglayout_guideline_DebugGuidelinePosition_Top$stableprop_getter(){}[0]
+final fun at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_ArrangementCalculator_PaintedSubrange$stableprop_getter(): kotlin/Int // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_ArrangementCalculator_PaintedSubrange$stableprop_getter|at_released_debuglayout_rowcolumn_ArrangementCalculator_PaintedSubrange$stableprop_getter(){}[0]
+final fun at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement$stableprop_getter(): kotlin/Int // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement$stableprop_getter|at_released_debuglayout_rowcolumn_DebugColumnsArrangement$stableprop_getter(){}[0]
+final fun at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Center$stableprop_getter(): kotlin/Int // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Center$stableprop_getter|at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Center$stableprop_getter(){}[0]
+final fun at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Left$stableprop_getter(): kotlin/Int // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Left$stableprop_getter|at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Left$stableprop_getter(){}[0]
+final fun at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Right$stableprop_getter(): kotlin/Int // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Right$stableprop_getter|at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Right$stableprop_getter(){}[0]
+final fun at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Stretch$stableprop_getter(): kotlin/Int // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Stretch$stableprop_getter|at_released_debuglayout_rowcolumn_DebugColumnsArrangement_Stretch$stableprop_getter(){}[0]
+final fun at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement$stableprop_getter(): kotlin/Int // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement$stableprop_getter|at_released_debuglayout_rowcolumn_DebugRowsArrangement$stableprop_getter(){}[0]
+final fun at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Bottom$stableprop_getter(): kotlin/Int // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Bottom$stableprop_getter|at_released_debuglayout_rowcolumn_DebugRowsArrangement_Bottom$stableprop_getter(){}[0]
+final fun at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Center$stableprop_getter(): kotlin/Int // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Center$stableprop_getter|at_released_debuglayout_rowcolumn_DebugRowsArrangement_Center$stableprop_getter(){}[0]
+final fun at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Stretch$stableprop_getter(): kotlin/Int // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Stretch$stableprop_getter|at_released_debuglayout_rowcolumn_DebugRowsArrangement_Stretch$stableprop_getter(){}[0]
+final fun at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Top$stableprop_getter(): kotlin/Int // at.released.debuglayout.rowcolumn/at_released_debuglayout_rowcolumn_DebugRowsArrangement_Top$stableprop_getter|at_released_debuglayout_rowcolumn_DebugRowsArrangement_Top$stableprop_getter(){}[0]
+final fun at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerHorizontalZeroPoint$stableprop_getter(): kotlin/Int // at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerHorizontalZeroPoint$stableprop_getter|at_released_debuglayout_ruler_DebugRulerHorizontalZeroPoint$stableprop_getter(){}[0]
+final fun at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerMeasureUnit$stableprop_getter(): kotlin/Int // at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerMeasureUnit$stableprop_getter|at_released_debuglayout_ruler_DebugRulerMeasureUnit$stableprop_getter(){}[0]
+final fun at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerVerticalZeroPoint$stableprop_getter(): kotlin/Int // at.released.debuglayout.ruler/at_released_debuglayout_ruler_DebugRulerVerticalZeroPoint$stableprop_getter|at_released_debuglayout_ruler_DebugRulerVerticalZeroPoint$stableprop_getter(){}[0]
+final fun at.released.debuglayout/at_released_debuglayout_DebugLayout$stableprop_getter(): kotlin/Int // at.released.debuglayout/at_released_debuglayout_DebugLayout$stableprop_getter|at_released_debuglayout_DebugLayout$stableprop_getter(){}[0]
+final fun at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults$stableprop_getter(): kotlin/Int // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults$stableprop_getter|at_released_debuglayout_DebugLayoutDefaults$stableprop_getter(){}[0]
+final fun at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Column$stableprop_getter(): kotlin/Int // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Column$stableprop_getter|at_released_debuglayout_DebugLayoutDefaults_Column$stableprop_getter(){}[0]
+final fun at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Grid$stableprop_getter(): kotlin/Int // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Grid$stableprop_getter|at_released_debuglayout_DebugLayoutDefaults_Grid$stableprop_getter(){}[0]
+final fun at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Guideline$stableprop_getter(): kotlin/Int // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Guideline$stableprop_getter|at_released_debuglayout_DebugLayoutDefaults_Guideline$stableprop_getter(){}[0]
+final fun at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Row$stableprop_getter(): kotlin/Int // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Row$stableprop_getter|at_released_debuglayout_DebugLayoutDefaults_Row$stableprop_getter(){}[0]
+final fun at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Ruler$stableprop_getter(): kotlin/Int // at.released.debuglayout/at_released_debuglayout_DebugLayoutDefaults_Ruler$stableprop_getter|at_released_debuglayout_DebugLayoutDefaults_Ruler$stableprop_getter(){}[0]

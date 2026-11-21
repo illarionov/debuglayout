@@ -9,6 +9,7 @@
 
 import com.android.build.gradle.ProguardFiles.getDefaultProguardFile
 import org.jetbrains.compose.web.tasks.UnpackSkikoWasmRuntimeTask
+import org.jetbrains.kotlin.gradle.dsl.abi.ExperimentalAbiValidation
 
 plugins {
     id("at.released.debuglayout.gradle.multiplatform.android")
@@ -16,7 +17,6 @@ plugins {
     id("at.released.debuglayout.gradle.multiplatform.publish")
     alias(libs.plugins.jetbrains.compose)
     alias(libs.plugins.compose.compiler)
-    alias(libs.plugins.kotlinx.binary.compatibility.validator)
 }
 
 group = "at.released.debuglayout"
@@ -47,6 +47,9 @@ kotlin {
     iosSimulatorArm64()
     macosX64()
     macosArm64()
+
+    @OptIn(ExperimentalAbiValidation::class)
+    abiValidation()
 
     sourceSets {
         androidMain.dependencies {
