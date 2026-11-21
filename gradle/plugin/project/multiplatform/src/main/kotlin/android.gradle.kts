@@ -21,8 +21,10 @@ plugins {
 
 kotlin {
     android {
-        compileSdk = versionCatalogs.named("libs").findVersion("androidCompileSdk").get().displayName.toInt()
-        minSdk = versionCatalogs.named("libs").findVersion("androidMinSdk").get().displayName.toInt()
+        compileSdk {
+            version = release(37) { minorApiLevel = 2 }
+        }
+        minSdk = 21
         aarMetadata.minCompileSdk = 1
         enableCoreLibraryDesugaring = false
 
