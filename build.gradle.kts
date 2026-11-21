@@ -13,7 +13,6 @@ plugins {
     alias(libs.plugins.gradle.maven.publish.plugin.base) apply false
     alias(libs.plugins.jetbrains.compose) apply false
     alias(libs.plugins.kotlin.jvm) apply false
-    alias(libs.plugins.kotlinx.binary.compatibility.validator) apply false
     id("at.released.debuglayout.gradle.lint.detekt")
     id("at.released.debuglayout.gradle.lint.spotless")
 }
